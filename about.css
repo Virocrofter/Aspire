@@ -1,0 +1,299 @@
+.li {
+    list-style: none;
+}
+
+.about__container {
+    margin-top: 120px;
+}
+
+.About__title {
+    font-size: 72px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: #B60100;
+}
+
+.About__sub-title {
+    font-size: 36px;
+    width: 900px;
+    color: #fff;
+}
+
+head {
+    height: 80vh;
+}
+
+header {
+    width: 80%;
+}
+
+.who__text {
+    margin: 80px 0 40px 0;
+    font-size: 64px;
+    text-align: center;
+    color: #B60100;
+}
+
+.who__sub-text {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/*
+
+
+Welcome Section
+
+
+*/
+
+.welcome__text {
+    font-size: 52px;
+    font-weight: 900;
+    margin-bottom: 48px;
+    color: #B60100;
+}
+
+.sub-welciome__text {
+    font-weight: 600;
+    font-size: 24px;
+    color: #B60100;
+    margin-bottom: 24px;
+}
+
+.welcome__text--text {
+    width: 700px;
+}
+
+.space {
+    margin-bottom: 24px;
+}
+
+li {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+.h3 {
+    margin-top: 50px;
+}
+
+/*
+
+Club History Section
+
+*/
+
+.club__box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+}
+
+.b1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.fifty {
+    width: 50%;
+}
+
+.b1-1-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.club__date {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+    color: #B60100;
+}
+
+.club__title {
+    font-size: 32px;
+    font-weight: 200;
+    margin-bottom: 24px;
+}
+
+.historical__container {
+    background: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.space2 {
+    padding: 48px 0;
+    gap: 64px;
+}
+
+.rs {
+    flex-direction: row-reverse;
+}
+
+/*
+
+Gallery
+
+*/
+
+.gallery__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery__title {
+    margin-top: 64px;
+    font-size: 52px;
+    font-weight: 900;
+    margin-bottom: 24px;
+    color: #B60100;
+    text-align: center;
+}
+
+.gallery__sub-text {
+    width: 80%;
+    margin-top: 24px;
+    font-size: 20px;
+    margin-bottom: 64px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery__container {
+    margin-top: 80px;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery__img--container {
+    width: 30%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+@media (max-width:950px) {
+    .gallery__img--container {
+        width: 45%;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .about__container {
+        margin-top: 120px;
+        left: 0;
+    }
+
+    .About__title,
+    .club__date,
+    .welcome__text {
+        font-size: 56px;
+    }
+
+    .About__sub-title {
+        width: 500px;
+        font-size: 32px;
+    }
+}
+
+@media (max-width:904px) {
+    .About__title,
+    .club__date,
+    .welcome__text {
+        font-size: 48px;
+    }
+    .About__sub-title {
+        width: 500px;
+        font-size: 24px;
+    }
+    .historical__container {
+        display: flex;
+        gap: 8;
+        flex-wrap: wrap;
+    }
+    .feature__container {
+        width: 45%;
+    }
+    .head__img--container {
+        height: 400px;
+    }
+    .h{
+        height: 400px;
+        object-fit: cover;
+    }
+    .principles__container {
+        left: 24px;
+    }
+    .welcome__text--text{
+        width: 100%;
+    }
+}
+
+@media (max-width:577px) {
+    .feature__container {
+        width: 100%;
+    }
+    .b1 {
+        flex-direction: column;
+    }
+    .fifty {
+        width: 100%;
+    }
+    .b1-1{
+        text-align: center;
+    }
+    .gallery__img--container {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+    .gallery__sub-text{
+        margin-bottom: 0;
+    }
+    .About__sub-title {
+        width: 300px;
+        font-size: 24px;
+    }
+    .who__text{
+        font-size: 40px;
+    }
+    .who__sub-text{
+        font-size: 20px;
+    }
+    .feature__title {
+        margin: 12px 0;
+    }
+}
